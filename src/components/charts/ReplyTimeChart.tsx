@@ -1,7 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { ComposedChart, Scatter, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { ReplyTimeData } from '@/types/chat';
-
 interface ReplyTimeChartProps {
   data: ReplyTimeData[];
 }
