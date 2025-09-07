@@ -17,6 +17,7 @@ const FinalVerdict = ({ chatData }: FinalVerdictProps) => {
     return <TrendingDown className="h-16 w-16 text-gray-500" />;
   };
 
+  
   const getVerdictText = () => {
     if (loveScore >= 90) return "It's a perfect match! ✨";
     if (loveScore >= 75) return "Sparks are flying! 🔥";
