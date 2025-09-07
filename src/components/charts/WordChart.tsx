@@ -2,7 +2,6 @@
 import { Card } from '@/components/ui/card';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { WordData } from '@/types/chat';
-
 interface WordChartProps {
   data: WordData[];
 }
