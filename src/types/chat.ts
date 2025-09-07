@@ -5,6 +5,7 @@ export interface Message {
   replyTime?: number; // in minutes
 }
 
+
 export interface EmojiData {
   emoji: string;
   count: number;
