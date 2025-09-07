@@ -8,6 +8,7 @@ interface FileUploadProps {
   isAnalyzing: boolean;
 }
 
+
 export const FileUpload = ({ onFileUpload, isAnalyzing }: FileUploadProps) => {
   const [file, setFile] = useState<File | null>(null);
   const [isDragOver, setIsDragOver] = useState(false);
