@@ -1,6 +1,5 @@
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-
 interface MessageDistributionChartProps {
   data: {
     [user: string]: number;
