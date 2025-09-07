@@ -1,4 +1,3 @@
-
 import { Card } from '@/components/ui/card';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { HourlyActivity } from '@/types/chat';
