@@ -17,6 +17,7 @@ interface DashboardProps {
   onReset: () => void;
 }
 
+
 const StatCard = ({ title, value, icon: Icon, color }: { title: string, value: string | number, icon: React.ElementType, color: string }) => (
   <Card className="shadow-sm">
     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
