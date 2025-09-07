@@ -6,6 +6,7 @@ interface EmojiChartProps {
   data: EmojiData[];
 }
 
+
 const EmojiChart = ({ data }: EmojiChartProps) => {
   const SENDER_COLORS: { [key: string]: string } = {
     [data[0]?.sender]: '#ec4899',
